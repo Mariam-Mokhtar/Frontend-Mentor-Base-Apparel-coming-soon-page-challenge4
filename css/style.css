@@ -1,0 +1,149 @@
+body{
+    font-size: 1rem;
+    margin: 0;
+}
+h1 {
+    font-family: "Josefin Sans";
+    font-weight: 600;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+h1 span {
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+}
+
+p {
+    padding: 0 23%;
+    color: hsl(0, 36%, 70%);
+
+}
+.form-style {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.Email-styling {
+    padding: 0.5rem 2rem;
+    border-radius: 1.5rem;
+    position: relative;
+
+}
+.btn-style {
+    background-image: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    color: white;
+    padding: 0.1rem 2rem;
+    font-size: 2rem;
+    border-radius: 10rem;
+    position: absolute;
+    z-index: 1;
+    margin-top: -0.5%;
+    margin-left: 45%;
+    text-align: center;
+}
+
+.form-group .form-control::-webkit-input-placeholder {
+    color: hsl(0, 36%, 70%);
+}
+
+.visible{
+    visibility: visible;
+}
+
+.error{
+    border-color: red;
+}
+.vaildation{
+margin-top: -2.2rem;
+margin-left: 2rem;
+color: red;
+visibility: hidden;
+
+}
+.errorIcon{
+    position: absolute;
+    z-index: 1;
+    margin-top:1.2%;
+    margin-left: 40%;
+    visibility: hidden;
+}
+@media only screen and (min-width:800px) {
+
+.navbar-style,
+h1
+ {
+    padding: 7% 23% 4%;
+
+}
+.form-style{
+    padding: 4% 23% 5%;
+}
+.backgroundImg {
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-size:cover;
+    background-position: center center;
+    min-height: 100vh;
+    max-height: 100vh;
+  
+  }
+  .paragraph-part{
+    position: absolute;
+    top:20%;
+  }
+.image-part,.no-gutters{
+    margin: 0;
+}
+
+.desktop,.col-md-5{
+      width: 100%;
+      min-height: 100.1vh;
+      max-height: 100.1vh;
+}
+.image-part .mobile{
+ display: none;
+
+}
+}
+@media only screen and (max-width: 800px) {
+    .navbar-style,
+    h1
+     {
+        padding: 7% 10% 4%;
+    
+    }
+    .form-style{
+        padding: 4% 25% 5%;
+    }
+    
+    h1,p {
+        text-align: center;
+    }
+    
+    .styling{
+        display: flex;
+        align-items: center;
+        justify-content: space-around; 
+    } 
+    .paragraph-part{
+      order: 3;
+    } 
+   
+   .mobile{
+    order: 2;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+   }
+    .image-part .desktop{
+      display: none;
+    }
+    .no-gutters{
+        margin: 0;
+    }
+    .vaildation{
+    margin-top: -1rem;
+    }
+
+
+}
