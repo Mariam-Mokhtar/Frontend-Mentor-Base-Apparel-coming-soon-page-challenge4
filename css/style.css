@@ -127,7 +127,10 @@ h1
     .paragraph-part{
       order: 3;
     } 
-   
+    .btn-style {
+        font-size: 1.5rem;
+        margin-top: -0.1%;
+    }
    .mobile{
     order: 2;
     text-align: center;
@@ -141,10 +144,14 @@ h1
         margin: 0;
     }
     .vaildation{
-    margin-top: -0.5rem;
+    margin-top: 0rem;
     text-align: center;
-    margin-left: 1rem;
+    margin-left: 0rem;
     }
-
+.errorIcon{
+    
+        margin-top:2.5%;
+        margin-left: 37%
+}
 
 }
